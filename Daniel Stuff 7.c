@@ -5,8 +5,8 @@
 
 void move (int leftmotorPower, int rightmotorPower, int time)
 {
-	motor [leftMotor] = leftMotorPower;
-	motor [rightMotor] = rightMotorPower;
+	motor [leftMotor] = leftmotorPower;
+	motor [rightMotor] = rightmotorPower;
 	wait1Msec(time);
 }
 
