@@ -28,7 +28,7 @@ task main()
 		{
 			move(100,0,0);
 		}
-	else
+		else
 		{
 			move(0,100,0);
 		}
